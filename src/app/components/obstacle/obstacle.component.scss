@@ -1,0 +1,31 @@
+.obstacle {
+    width: 50px;
+    height: 50px;
+    background-image: url('/lock.png');
+    position: absolute;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+    margin: 3px;
+  }
+  
+  .obstacle.active {
+    background-image: url('/unlock.png');
+  }
+  
+  .obstacle.hovered {
+    box-shadow: 0 0 15px 5px rgba(255, 255, 255, 0.7);
+  }
+  
+  .obstacle.completed {
+    background-image: url('/complete.png'); /* Зелёный цвет для пройденных препятствий */
+  }
+  
+  .text {
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    font-size: 14px;
+    color: black;
+  }

@@ -1,0 +1,9 @@
+<div
+  class="obstacle"
+  [style.left.px]="x"
+  [style.top.px]="y"
+  [ngClass]="obstacleClasses"
+  (click)="onClick()"
+  (mouseenter)="isHovered = true"
+  (mouseleave)="isHovered = false"
+></div>

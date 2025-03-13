@@ -1,0 +1,9 @@
+.player {
+    width: 150px;
+    height: 350px;
+    background-image: url('/player.png');
+    position: absolute;
+    top: 0;
+    left: 0;
+ //transition: transform 0.2s ease-in-out; /* Плавное перемещение */
+  }
